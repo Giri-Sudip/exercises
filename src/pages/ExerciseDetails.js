@@ -6,4 +6,4 @@ const ExerciseDetails = () => {
   )
 }
 
-export default ExerciseDetails
+export default ExerciseDetails;
