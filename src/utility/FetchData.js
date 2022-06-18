@@ -16,4 +16,4 @@ export const FetchData = async (url, options) => {
 
     return data;
 
-}
+};
