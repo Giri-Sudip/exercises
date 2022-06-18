@@ -1,6 +1,6 @@
-import { Typography, Stack, Button } from '@mui/material'
+import { Typography, Button } from '@mui/material'
 import React from 'react'
-import { Box,} from '@mui/system'
+import {Box} from '@mui/system'
 import BannerImage from '../assets/images/banner.png'
 
 
@@ -22,7 +22,7 @@ const HeroBanner = () => {
       <Typography fontWeight={600} color='##ff2625' sx={{ opacity: 0.1, display: { lg: 'block', xs: 'none' } }} fontSize="200px">
         Exercises
       </Typography>
-      <img src={BannerImage} alt="banner" className="hero-banner-img" justifyContent='relative'/>
+      <img src={BannerImage} alt="banner" className="hero-banner-img" justifycontent='relative'/>
     </Box>
   )
 }
